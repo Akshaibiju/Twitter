@@ -22,7 +22,7 @@
         </div>
 
         <div class="index">
-            <div class="person_fit">
+            <div class="person_fit" id="d1">
                 <img class="img" src="img-profile/vijay-3.jpg">
                 <h4 align="left">#Akshaibiju has posted new tweet today <span color="#08805d">Show more...</span></h4>
                 <embed class="post1" class="body-img" src="posts/video (1).mp4" paused>
@@ -32,7 +32,7 @@
                         <img class="share-t" id="t-3" src="images/tweet_retweet.png">
                         <img class="share-s" id="t-4" src="images/moreT.png">
                     </div>
-            </div> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div> <!--<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
 
             <div class="person_fit">
                 <img class="img" src="img-profile/vijay-3.jpg">
@@ -44,6 +44,24 @@
                         <img class="share-t" id="t-3" src="images/tweet_retweet.png">
                         <img class="share-s" id="t-4" src="images/moreT.png">
                     </div>
+            </div>
+
+            <div class="person_fit" id="word-post">
+                <img class="img" src="img-profile/vijay-3.jpg">
+                <h4 align="left">#Akshaibiju has posted new tweet today <span color="#08805d">Show more...</span></h4>
+                <h4 class="post1" class="body-img" id="message" >GoodMorning to all fellows </h4>
+                    <div class="share-point">
+                        <img class="share-t" id="t-1" src="images/tweet_share.png">
+                        <img class="share-t" id="t-2" src="images/tweet_comment.png">
+                        <img class="share-t" id="t-3" src="images/tweet_retweet.png">
+                        <img class="share-s" id="t-4" src="images/moreT.png">
+                    </div>
+            </div>
+
+            <div class="person_fit" id="stop" >
+                <img class="reload_site" alt="center" align="center" src="images/reload_site.png">
+                <h1 class="oops">oops!</h1>
+                <h3>Reload The Site</h3>
             </div>
 
         </div>
@@ -163,6 +181,7 @@
     .container .index .person_fit{
         position: relative;
         height: 440px;
+        padding-bottom: 211px;
         /* border: 1px solid; */
     }
     .container .index .person_fit h4{
@@ -225,6 +244,42 @@
         top: 21px;
         position: relative;
     }
-    
+
+    /* #d1 {
+        padding-bottom: 0;
+    }
+     */
+
+     #word-post {
+        height: 35px;
+     }
+     #word-post #message {
+        position: relative;
+        text-align: left;
+     }
+
+     .container .index #stop {
+        background-color: #3e576f;
+        height: 16px;
+     }
+
+     .container .index #stop .reload_site {
+        position: relative;
+        top: 109px;
+        left: 0;
+        width: 60px;
+     }
+     .container .index #stop  .oops{
+        position: relative;
+        top: 72px;
+        font-family: sans-serif;
+        color: antiquewhite;
+     }
+     .container .index #stop h3{
+        position: relative;
+        top: 50px;
+        font-family: sans-serif;
+        color: antiquewhite;
+     }
 </style>
 </html>

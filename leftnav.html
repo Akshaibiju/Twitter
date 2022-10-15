@@ -16,9 +16,35 @@
         <button type="button" class="btH" id="prof" ><img class="profile" src="images/profileT.png"><h3 class="home-h" id="prof-E"           >Profile</h3></button><br>
         <button type="button" class="btH" id="more" ><img class="more" src="images/moreT.png"><h3 class="home-h" id="more-E"                 >More</h3></button><br>
 
+        <button type="button" class="btH" id="tweet-btn" ><h3 class="home-h" id="tweet"                 >Tweet</h3></button><br><br>
+        
+
     </div>
+
+    <!-- <div class="loader"></div> -->
 </body>
 <style type="text/css">
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
     img {
         color: white;
         padding-top: 8px;
@@ -140,6 +166,20 @@
     }
     #more-E {
         left: 85px;
+    }
+
+    #tweet {
+        position: relative;
+        top: -2px;
+        text-align: center;
+        left: 61px;
+        
+    }
+
+    #tweet-btn {
+        background-color: #03ad75;
+        width: 250px;
+        left: 149px;
     }
 
 </style>
