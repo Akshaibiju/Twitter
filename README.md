@@ -15,5 +15,5 @@ https://demotwitter.netlify.app/
 7) This webpage is Created by #AKSHAI BIJU
 8) Inspired By #TWITTER.COM
 
-*) CSS is included in side html document using <STYLE TYPE="TYPE/CSS"> *--CSS--* </STYLE>
+9) CSS is included in side html document using <STYLE TYPE="TYPE/CSS"> *--CSS--* </STYLE>
 
